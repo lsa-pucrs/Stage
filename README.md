@@ -7,7 +7,7 @@ For installation notes see INSTALL.txt
 Copyright Richard Vaughan and contributors 1998-2011
 Part of the Player Project (http://playerstage.org)
 
-[![Build Status](https://travis-ci.org/amamory/Stage.svg?branch=master)](https://travis-ci.org/amamory/Stage)
+[![Build Status](https://travis-ci.org/lsa-pucrs/Stage.svg?branch=master)](https://travis-ci.org/lsa-pucrs/Stage)
 
 # License
 This program is free software; you can redistribute it and/or modify
