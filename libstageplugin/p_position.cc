@@ -141,7 +141,7 @@ int InterfacePosition::ProcessMessage(QueuePointer &resp_queue, player_msghdr_t 
       // mod->est_pose.z = req->pose.pz;
       mod->est_pose.a = req->pose.pa;
 
-      PRINT_DEBUG3("set odometry to (%.2f,%.2f,%.2f)", pose.x, pose.y, pose.a);
+      PRINT_DEBUG3("set odometry to (%.2f,%.2f,%.2f)", req->pose.px, req->pose.py, req->pose.pa);
 
       this->driver->Publish(this->addr, resp_queue, PLAYER_MSGTYPE_RESP_ACK,
                             PLAYER_POSITION2D_REQ_SET_ODOM);
